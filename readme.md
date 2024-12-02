@@ -63,3 +63,8 @@ git stash list
 git stash pop
 git stash list
 ```
+### 11. Revent commit
+```
+git log --online
+git revert [COMMIT_ID]
+```
