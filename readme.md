@@ -68,3 +68,8 @@ git stash list
 git log --online
 git revert [COMMIT_ID]
 ```
+### 12. Cherry Pick
+```
+git log --online
+git cherry-pick [COMMIT_ID]
+```
