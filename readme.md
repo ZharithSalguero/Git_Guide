@@ -1,8 +1,8 @@
 # Git Guide
 ### 1. Config user
 ```
-git config --global user.name "Zharith Salguero" #config para editar
-git config --global user.email "458616.clot@fje.edu"
+git config --global user.name "Your Full Name"
+git config --global user.email "your-email-address"
 git config --list
 ```
 ### 2. Git init
