@@ -77,18 +77,16 @@ git cherry-pick [COMMIT_ID]
 ```
 git log --online
 git reset --soft HEAD~1
+git reset --mixed HEAD~1
+git reset --hard HEAD~1
 ```
 ### 14. Create Patch
 ```
-git diff HEAD > <file
+git diff HEAD > <file>
+git diff --no-prefix --no-index --no-renames --binary a b > parche.patch
+git format-patch -1 <commit SHA> -o <name of the directory you want the patch saved to>
 ```
-### 15. Apply Patch
+### 15, Apply Patch
 ```
-git apply <file 
-```
-### 16. Init GitHub
-```
-git remote add origin [REMOTE-URL]
-git push -u origin master
-git push origin --all
+git apply <file>
 ```
